@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
-## Development server
+## First Install
 
 If is the firt time and doesn't exist node-modules, run:
 
