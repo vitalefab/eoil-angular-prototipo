@@ -1,5 +1,8 @@
 # EoilAngularPrototipo
 
+![Screenshot Home](public/assets/images/screenshot-home-full.png)
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
 ## First Install
