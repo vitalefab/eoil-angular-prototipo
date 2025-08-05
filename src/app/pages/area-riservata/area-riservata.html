@@ -1,0 +1,24 @@
+    <h1>Registrati o accedi alla tua dashboard professionale</h1>
+    <p class="mb-4">Accedi ad una piattaforma progettata per professionisti del settore carburanti.</p>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="company" class="form-label">Nome azienda</label>
+        <input type="text" class="form-control" id="company" required>
+      </div>
+      <div class="col-md-6">
+        <label for="vat" class="form-label">Partita IVA</label>
+        <input type="text" class="form-control" id="vat" required pattern="\\d+">
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Telefono</label>
+        <input type="tel" class="form-control" id="phone">
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-warning me-2">Registrati ora gratuitamente</button>
+        <a routerLink="/area-riservata" class="btn btn-outline-light">Accedi</a>
+      </div>
+    </form>
