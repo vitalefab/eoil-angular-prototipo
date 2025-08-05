@@ -57,3 +57,30 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Build and run on local http-server
+
+Serve the dist/ folder with a static file server
+Since you've already built the app using:
+
+```bash
+ng build --configuration=production --base-href=./
+```
+Now use a static server like one of the following:
+
+Using Node.js (http-server)
+Install it (if you don’t already have it):
+
+```bash
+npm install -g http-server
+```
+Serve the build:
+
+```bash
+cd dist/eoil-angular-prototipo/browser
+```
+
+```bash
+http-server
+```
