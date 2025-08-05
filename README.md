@@ -4,6 +4,17 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Development server
 
+If is the firt time and doesn't exist node-modules, run:
+
+```bash
+npm install
+```
+
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+
+## Development server
+
 To start a local development server, run:
 
 ```bash
@@ -11,6 +22,36 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+
+
+
+## Build and run on local http-server
+
+Serve the dist/ folder with a static file server
+Since you've already built the app using:
+
+```bash
+ng build --configuration=production --base-href=./
+```
+Now use a static server like one of the following:
+
+Using Node.js (http-server)
+Install it (if you don’t already have it):
+
+```bash
+npm install -g http-server
+```
+Serve the build:
+
+```bash
+cd dist/eoil-angular-prototipo/browser
+```
+
+```bash
+http-server
+```
+
 
 ## Code scaffolding
 
@@ -59,28 +100,3 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
-## Build and run on local http-server
-
-Serve the dist/ folder with a static file server
-Since you've already built the app using:
-
-```bash
-ng build --configuration=production --base-href=./
-```
-Now use a static server like one of the following:
-
-Using Node.js (http-server)
-Install it (if you don’t already have it):
-
-```bash
-npm install -g http-server
-```
-Serve the build:
-
-```bash
-cd dist/eoil-angular-prototipo/browser
-```
-
-```bash
-http-server
-```
