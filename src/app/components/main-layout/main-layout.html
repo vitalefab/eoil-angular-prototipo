@@ -1,10 +1,17 @@
 <div class="layout-wrapper d-flex flex-column min-vh-100">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark px-3" style="background-color: #0d1b2a;">
-    <a class="navbar-brand d-flex align-items-center" routerLink="/">
+    <!-- <a class="navbar-brand d-flex align-items-center" routerLink="/">
       <img src="assets/images/logo.png" alt="Logo" class="logo me-2" />
       SCAMBIO CARBURANTI
+    </a> -->
+
+    <a class="navbar-brand d-flex align-items-center" routerLink="/">
+      <img src="assets/images/Eoil Logo_20250805.png" alt="Logo" class="logo me-2">
+      <img src="assets/images/logo.png" alt="Second Logo" class="logo me-2">
+      SCAMBIO CARBURANTI
     </a>
+
     <button
       class="navbar-toggler"
       type="button"
@@ -42,11 +49,29 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer text-white border-top py-3 text-center">
+  <!-- <footer class="footer text-white border-top py-3 text-center">
     <div class="container">
       <a routerLink="/privacy" class="text-white text-decoration-none me-3">Privacy</a>
       <a routerLink="/contatti" class="text-white text-decoration-none me-3">Contattaci</a>
       <a routerLink="/area-riservata" class="btn btn-outline-light btn-sm">Accedi Ora</a>
     </div>
+  </footer> -->
+
+  <footer class="footer text-white border-top py-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a routerLink="/privacy" class="text-white text-decoration-none me-3">Privacy</a>
+          <a routerLink="/contatti" class="text-white text-decoration-none me-3">Contattaci</a>
+          <a routerLink="/area-riservata" class="btn btn-outline-light btn-sm">Accedi Ora</a>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col">
+          <small class="text-white-50">Webmaster: <a href="https://www.perfexia.it" class="text-white-50 text-decoration-none" target="_blank">Perfexia Srl</a></small>
+        </div>
+      </div>
+    </div>
   </footer>
+
 </div>

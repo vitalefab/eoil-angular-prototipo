@@ -10,10 +10,10 @@
   color: #ffffff;
 }
 
-.logo {
+/* .logo {
   height: 30px;
   margin-right: 10px;
-}
+} */
 
 .footer {
   background-color: #0d1b2a;
@@ -42,4 +42,22 @@ h1, h2, h4 {
   background-color: #1b263b;
   border-radius: 10px;
   padding: 20px;
+}
+
+.logo {
+  max-height: 80px;
+  width: auto;
+}
+
+.nav-link {
+  font-size: 1.5rem;   /* Puoi aumentare a piacere, ad esempio 1.2rem */
+  /* font-weight: bold; */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;   /* Puoi aumentare a piacere, ad esempio 1.2rem */
+}
+
+.navbar {
+  font-family: 'Segoe UI', sans-serif;
 }
